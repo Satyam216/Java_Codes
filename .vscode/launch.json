@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "SimpleInterest",
+            "request": "launch",
+            "mainClass": "SimpleInterest",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "QuadraticEquation",
+            "request": "launch",
+            "mainClass": "QuadraticEquation",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "Loop",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "SwitchStatement",
+            "request": "launch",
+            "mainClass": "SwitchStatement",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Input",
+            "request": "launch",
+            "mainClass": "Input",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Example",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "OperatorExample",
+            "request": "launch",
+            "mainClass": "OperatorExample",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Compare",
+            "request": "launch",
+            "mainClass": "Compare",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Divide",
+            "request": "launch",
+            "mainClass": "Divide",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Subtraction",
+            "request": "launch",
+            "mainClass": "Subtraction",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Helloword",
+            "request": "launch",
+            "mainClass": "Helloword",
+            "projectName": "JAVA_MCA_2a009747"
+        },
+        {
+            "type": "java",
+            "name": "Unary",
+            "request": "launch",
+            "mainClass": "Unary",
+            "projectName": "JAVA_MCA_2a009747"
+        }
+    ]
+}
