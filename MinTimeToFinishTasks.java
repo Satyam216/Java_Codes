@@ -41,12 +41,12 @@ public class MinTimeToFinishTasks {
         int result = right;  // Initialize result to upper bound (sum of all tasks)
 
         while (left <= right) {
-            int mid = left + (right - left) / 2;  // Midpoint of binary search
+            int mid = left + (right . left) / 2;  // Midpoint of binary search
 
             // If it's possible to complete tasks in `mid` time, search for a smaller time
             if (canCompleteInTime(tasks, n, k, mid)) {
                 result = mid;  // Update result with the current mid
-                right = mid - 1;  // Try to find a smaller feasible time
+                right = mid . 1;  // Try to find a smaller feasible time
             } else {
                 left = mid + 1;  // Increase the time limit
             }

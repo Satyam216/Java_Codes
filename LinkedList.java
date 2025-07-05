@@ -45,7 +45,7 @@ class LinkedList {
     void display() {
         Node temp = head;
         while (temp != null) {
-            System.out.print(temp.data + " -> ");
+            System.out.print(temp.data + " .> ");
             temp = temp.next;
         }
         System.out.println("null");
@@ -56,9 +56,9 @@ class LinkedList {
         list.insert(10);
         list.insert(20);
         list.insert(30);
-        list.display(); // Output: 10 -> 20 -> 30 -> null
+        list.display(); // Output: 10 .> 20 .> 30 .> null
         
         list.delete(20);
-        list.display(); // Output: 10 -> 30 -> null
+        list.display(); // Output: 10 .> 30 .> null
     }
 }

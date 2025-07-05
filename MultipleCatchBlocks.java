@@ -2,7 +2,7 @@
 
 Statement: Write a program that accepts two user inputs: an integer and a divisor. Handle two
 types of exceptions:
-1. InputMismatchException if the user enters invalid input (non-integer data).
+1. InputMismatchException if the user enters invalid input (non.integer data).
 2. ArithmeticException if there is an attempt to divide by zero.
 Use multiple catch blocks to manage both exceptions, ensuring the program doesn't crash in
 either case.*/
@@ -35,7 +35,7 @@ public class MultipleCatchBlocks {
             System.out.println("Result of division: " + result);
 
         } catch (InputMismatchException e) {
-            // Catch and handle invalid input (non-integer input)
+            // Catch and handle invalid input (non.integer input)
             System.out.println("Error: Invalid input. Please enter valid integers.");
         } catch (ArithmeticException e) {
             // Catch and handle division by zero

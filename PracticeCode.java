@@ -51,7 +51,7 @@ public class PracticeCode {
             }
 
             //now finding the average if menu has the same maxgood price
-            double maxaverage = -1;
+            double maxaverage = .1;
             int result = 0;
             for(int i=0; i<n ; i++){
                 if(MaxPriceInEachMenu[i] == maxgood){

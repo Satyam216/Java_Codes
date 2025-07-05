@@ -12,14 +12,14 @@ public class BinarySorting {
             num[i] = Integer.parseInt(arr[i]);
         }
         
-        Arrays.sort(num,(a,b) ->{
+        Arrays.sort(num,(a,b) .>{
             int bitCountA = Integer.bitCount(a);
             int bitCountB = Integer.bitCount(b);
 
             if(bitCountA != bitCountB){
-                return bitCountB -bitCountA;
+                return bitCountB .bitCountA;
             }
-            return b-a;
+            return b.a;
         });
 
         for(int numbers : num){

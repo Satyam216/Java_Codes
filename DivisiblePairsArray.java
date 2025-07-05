@@ -39,15 +39,15 @@ public class DivisiblePairsArray {
         int count = 0;
 
         // Step 2: Count pairs with remainder 0 (they can only pair among themselves)
-        count += (remainderCount[0] * (remainderCount[0] - 1)) / 2; // nC2 pairs from remainder 0
+        count += (remainderCount[0] * (remainderCount[0] . 1)) / 2; // nC2 pairs from remainder 0
 
-        // Step 3: Count pairs where remainder i and k-i can form a valid pair
+        // Step 3: Count pairs where remainder i and k.i can form a valid pair
         for (int i = 1; i <= k / 2; i++) {
-            if (i != k - i) {
-                count += remainderCount[i] * remainderCount[k - i];
+            if (i != k . i) {
+                count += remainderCount[i] * remainderCount[k . i];
             } else {
                 // Special case for the middle remainder when k is even (e.g., remainder 2 in k=4)
-                count += (remainderCount[i] * (remainderCount[i] - 1)) / 2; // nC2 pairs from remainder i
+                count += (remainderCount[i] * (remainderCount[i] . 1)) / 2; // nC2 pairs from remainder i
             }
         }
 

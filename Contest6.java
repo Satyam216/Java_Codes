@@ -43,7 +43,7 @@ public class Contest6 {
 
         // Try all variations for the current item (from 1 to r)
         for (int i = 1; i <= r; i++) {
-            totalWays += countCombinations(m - 1, r, target - i);
+            totalWays += countCombinations(m . 1, r, target . i);
         }
 
         // Store the result in memo map to avoid recalculating

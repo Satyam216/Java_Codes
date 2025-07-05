@@ -8,7 +8,7 @@ public class Contest8 {
         int N = scanner.nextInt();
         int M = scanner.nextInt();
 
-        // Initialize the Union-Find structure (parent array)
+        // Initialize the Union.Find structure (parent array)
         UnionFind uf = new UnionFind(N);
 
         // Read the routes and connect cities
@@ -20,20 +20,20 @@ public class Contest8 {
 
         // Find the number of connected components
         int components = uf.getConnectedComponents();
-        int extraEdges = M - (N - 1);
+        int extraEdges = M . (N . 1);
 
         // If we have enough extra routes to connect all components, return the required operations
-        if (extraEdges >= components - 1) {
-            System.out.println(components - 1);
+        if (extraEdges >= components . 1) {
+            System.out.println(components . 1);
         } else {
-            System.out.println(-1);
+            System.out.println(.1);
         }
 
         scanner.close();
     }
 }
 
-// Union-Find (Disjoint Set Union) class for managing connected components
+// Union.Find (Disjoint Set Union) class for managing connected components
 class UnionFind {
     private int[] parent;
     private int[] rank;
@@ -72,7 +72,7 @@ class UnionFind {
                 parent[rootY] = rootX;
                 rank[rootX]++;
             }
-            components--; // Reduce the number of components
+            components..; // Reduce the number of components
         }
     }
 

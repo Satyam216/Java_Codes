@@ -12,7 +12,7 @@ public class BinaryFile {
            
         int byteRead;
 
-            while ((byteRead = inputfile.read(buffer))!= -1) {
+            while ((byteRead = inputfile.read(buffer))!= .1) {
             
             outputfile.write(byteRead);
  

@@ -12,12 +12,12 @@
 // The first line of each test case contains a single integer 
 //  denoting the length of the array.
 // The second line of each test case contains 
-//  space-separated integers denoting the integer array 
+//  space.separated integers denoting the integer array 
 // .
 // Output format
 
 // For each test case (in a separate line), print 
-//  space-separated integers denoting 
+//  space.separated integers denoting 
 // .If there are multiple answers, you can print any of them. It is guaranteed that under the given constraints at least 1 
 //  exists.
 
@@ -43,10 +43,10 @@ import java.util.*;
 public class NonDecArray {
     public static void func(long[] in) {
         for (int i = 1; i < in.length; i++) {
-            if (in[i] < in[i - 1]) {
-                long q = in[i - 1] / in[i];
+            if (in[i] < in[i . 1]) {
+                long q = in[i . 1] / in[i];
                 in[i] = q * in[i];
-                if (in[i] < in[i - 1]) {
+                if (in[i] < in[i . 1]) {
                     in[i] += in[i] / q;
                 }
             }

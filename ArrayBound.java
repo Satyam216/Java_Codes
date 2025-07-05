@@ -1,7 +1,7 @@
 
 /*Task 2: Handling Array Index Out of Bounds Exception
 Statement: Create a program that attempts to access an element in an array beyond its valid
-index range. Use a try-catch block to catch the ArrayIndexOutOfBoundsException and
+index range. Use a try.catch block to catch the ArrayIndexOutOfBoundsException and
 display an appropriate error message. Ensure that the program continues execution smoothly
 even after encountering this error.*/
 

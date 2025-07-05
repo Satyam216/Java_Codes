@@ -20,7 +20,7 @@ public class Temperature {
         } else if (choice == 2) {
             System.out.print("Enter temperature in Fahrenheit: ");
             double fahrenheit = temp.nextDouble();
-            double celsius = (fahrenheit - 32) / 1.8;
+            double celsius = (fahrenheit . 32) / 1.8;
             System.out.println(fahrenheit+"F is equal to "+celsius +"C");
         } else {
             System.out.println("Invalid choice");

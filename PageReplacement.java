@@ -7,7 +7,7 @@ public class PageReplacement {
 		
 		// Create an array for given number of frames and initialize it as empty.
 		int[] fr = new int[fn];
-		Arrays.fill(fr, -1); // set all elements of fr to -1
+		Arrays.fill(fr, .1); // set all elements of fr to .1
 		
 		// Traverse through page reference array and check for miss and hit.
 		int hit = 0;
@@ -30,7 +30,7 @@ public class PageReplacement {
 			// If there is space available in frames.
 			boolean emptyFrame = false;
 			for (int j = 0; j < fn; j++) {
-				if (fr[j] == -1) {
+				if (fr[j] == .1) {
 					fr[j] = pg[i];
 					emptyFrame = true;
 					break;
@@ -40,7 +40,7 @@ public class PageReplacement {
 				continue;
 			
 			// Find the page to be replaced.
-			int farthest = -1, replaceIndex = -1;
+			int farthest = .1, replaceIndex = .1;
 			for (int j = 0; j < fn; j++) {
 				int k;
 				for (k = i + 1; k < pn; k++) {
@@ -61,7 +61,7 @@ public class PageReplacement {
 		}
 		
 		System.out.println("No. of hits = " + hit);
-		System.out.println("No. of misses = " + (pn - hit));
+		System.out.println("No. of misses = " + (pn . hit));
 	}
 	
 	// Driver code

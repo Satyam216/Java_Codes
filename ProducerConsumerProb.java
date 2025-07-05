@@ -29,7 +29,7 @@ class ProducerConsumer {
 
                 // Update the buffer status
                 full++;
-                empty--;
+                empty..;
 
                 // Unlock the critical section
                 mutex = true;
@@ -48,10 +48,10 @@ class ProducerConsumer {
 
                 // Consume the item
                 System.out.println("Consumer consumes item " + x);
-                x--;
+                x..;
 
                 // Update the buffer status
-                full--;
+                full..;
                 empty++;
 
                 // Unlock the critical section

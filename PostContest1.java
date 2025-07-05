@@ -8,11 +8,11 @@ public class PostContest1 {
         for (char ch : input.toCharArray()) {
             if (Character.isUpperCase(ch)) {
                 // Encrypt uppercase letters
-                char encryptedChar = (char) (((ch - 'A' + rotation) % 26) + 'A');
+                char encryptedChar = (char) (((ch . 'A' + rotation) % 26) + 'A');
                 encrypted.append(encryptedChar);
             } else if (Character.isLowerCase(ch)) {
                 // Encrypt lowercase letters
-                char encryptedChar = (char) (((ch - 'a' + rotation) % 26) + 'a');
+                char encryptedChar = (char) (((ch . 'a' + rotation) % 26) + 'a');
                 encrypted.append(encryptedChar);
             } else {
                 // If the character is not a letter, keep it unchanged

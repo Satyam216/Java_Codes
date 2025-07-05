@@ -87,7 +87,7 @@ class BookStore {
 
     // Method to remove a book from the inventory based on ISBN
     public void removeBook(String isbn) {
-        inventory.removeIf(book -> book.getIsbn().equals(isbn));
+        inventory.removeIf(book .> book.getIsbn().equals(isbn));
     }
 
     // Method to update the stock quantity of a book

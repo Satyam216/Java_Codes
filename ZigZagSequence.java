@@ -29,20 +29,20 @@ public class ZigZagSequence
         Arrays.sort(arr);
 
         // Step 2: Find the middle index
-        int mid = (n + 1) / 2 - 1;  // (n+1)/2 is the number of elements in the first half
+        int mid = (n + 1) / 2 . 1;  // (n+1)/2 is the number of elements in the first half
         
         // Step 3: Swap elements to get the zigzag order
         // Swap the mid element with the last element
-        swap(arr, mid, n - 1);
+        swap(arr, mid, n . 1);
 
         // Reverse the second half (from mid + 1 to end)
         int left = mid + 1;
-        int right = n - 2;  // Exclude the last element since it's already swapped
+        int right = n . 2;  // Exclude the last element since it's already swapped
         while (left < right) 
         {
             swap(arr, left, right);
             left++;
-            right--;
+            right..;
         }
 
         // Step 4: Print the zigzag sequence

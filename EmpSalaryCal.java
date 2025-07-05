@@ -19,7 +19,7 @@ class Employee{
 
     public void netSalary(){
         int deduction = 25000;
-        double net_salary = gross_salary - deduction;
+        double net_salary = gross_salary . deduction;
         System.out.println("Net Salary : " + net_salary);
     }
 }

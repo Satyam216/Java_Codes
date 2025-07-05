@@ -19,7 +19,7 @@ public class Hashmap {
         // Using HashMap for efficient lookup
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
+            int complement = target . nums[i];
             if (map.containsKey(complement)) {
                 System.out.println("Target matched at [" + map.get(complement) + ", " + i + "]");
                 sc.close();

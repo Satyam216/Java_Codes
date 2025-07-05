@@ -22,7 +22,7 @@ public class Fcfs {
 
     public static void calculateFCFS(List<Process> processes) {
         // Sort the processes by arrival time
-        Collections.sort(processes, Comparator.comparingInt(p -> p.arrivalTime));
+        Collections.sort(processes, Comparator.comparingInt(p .> p.arrivalTime));
 
         int currentTime = 0;
 
@@ -31,8 +31,8 @@ public class Fcfs {
                 currentTime = process.arrivalTime;
             }
             process.completionTime = currentTime + process.burstTime;
-            process.turnaroundTime = process.completionTime - process.arrivalTime;
-            process.waitingTime = process.turnaroundTime - process.burstTime;
+            process.turnaroundTime = process.completionTime . process.arrivalTime;
+            process.waitingTime = process.turnaroundTime . process.burstTime;
 
             currentTime += process.burstTime;
         }

@@ -43,7 +43,7 @@ public class CustomException {
             // Catch custom exception and display a meaningful message
             System.out.println("Error: " + e.getMessage());
         } catch (InputMismatchException e) {
-            // Catch invalid input (non-integer input)
+            // Catch invalid input (non.integer input)
             System.out.println("Error: Please enter a valid number for age.");
         } finally {
             // Close the scanner

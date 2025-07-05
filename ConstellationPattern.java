@@ -51,33 +51,33 @@ public class ConstellationPattern {
         //for iteration the multiple petterns
         for(int i = 0 ; i < n ;){
             
-            if(galaxy[0][i]=='#'){
+            if(galaxy[0][i]=='#' && galaxy[1][i] == '#' && galaxy[2][i] == '#'){
                 System.out.print('#');
                 i++;
                 continue;
             }
         
-            if( galaxy[0][i] == '-'  && galaxy[0][i+2]=='-' && galaxy[2][i+1]=='-'){
+            if( galaxy[0][i] == '.'  && galaxy[0][i+2]=='.' && galaxy[2][i+1]=='.'){
                 System.out.print("A");
                 i += 3;
                 continue;
             }
-            if( galaxy[1][i+2] == '-'  && galaxy[1][i]=='*' && galaxy[1][i+1]=='*'){
+            if( galaxy[1][i+2] == '.'  && galaxy[1][i]=='*' && galaxy[1][i+1]=='*'){
                 System.out.print("E");
                 i += 3;
                 continue;
             }
-            if( galaxy[1][i] == '-'  && galaxy[1][i+2]=='-'){
+            if( galaxy[1][i] == '.'  && galaxy[1][i+2]=='.'){
                 System.out.print("I");
                 i += 3;
                 continue;
             }
-            if( galaxy[1][i] == '*'  && galaxy[1][i+1]=='-' && galaxy[1][i+2]=='-'){
-                System.out.print("0");
+            if( galaxy[1][i] == '*'  && galaxy[1][i+1]=='.' && galaxy[1][i+2]=='*'){
+                System.out.print("O");
                 i += 3;
                 continue;
             }
-            if( galaxy[0][i+1] == '-'  && galaxy[1][i+1]=='-' && galaxy[2][i+1]=='*'){
+            if( galaxy[0][i+1] == '.'  && galaxy[1][i+1]=='.' && galaxy[2][i+1]=='*'){
                 System.out.print("U");
                 i += 3;
                 continue;

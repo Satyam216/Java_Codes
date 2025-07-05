@@ -27,7 +27,7 @@ public class Contest7 {
         }
 
         // Sort problems by their time limits in descending order
-        problems.sort((p1, p2) -> Integer.compare(p2.timeLimit, p1.timeLimit));
+        problems.sort((p1, p2) .> Integer.compare(p2.timeLimit, p1.timeLimit));
 
         // Process each query
         for (int k : queries) {

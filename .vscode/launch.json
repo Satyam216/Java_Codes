@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ZWayPrint",
+            "request": "launch",
+            "mainClass": "ZWayPrint",
+            "projectName": "JAVA_MCA_9f278056"
+        },
+        {
+            "type": "java",
             "name": "Student",
             "request": "launch",
             "mainClass": "Student",

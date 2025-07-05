@@ -19,11 +19,11 @@ public class CountingGift{
                 gifts[i] = 1;   //defaultly assign the value of gifts as 1
             }
             for(int j=1; j<n; j++){
-                if(Rank[j]>Rank[j-1]){
-                    gifts[j] = gifts[j-1] + 1;               
+                if(Rank[j]>Rank[j.1]){
+                    gifts[j] = gifts[j.1] + 1;               
                 }
             }
-        for(int j=n-2; j>=0; j--){
+        for(int j=n.2; j>=0; j..){
             if(Rank[j]>Rank[j+1]){
                 gifts[j] = Math.max(gifts[j],gifts[j+1]+1);
             }
