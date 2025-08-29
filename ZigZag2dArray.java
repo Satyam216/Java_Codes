@@ -17,13 +17,16 @@ public class ZigZag2dArray {
         }
         for(int i=0; i<col; i++){
             if(i % 2 == 0){
-                for(int j=0; j<row; i++){
-                    System.out.println(matrix[j][i] + ",");
+                for(int j=0; j<row; j++){
+                    System.out.print(matrix[j][i] + " ");
                 }
             }else{
-                for(int j=row-1; j>0; j--){
-                    System.out.println(matrix[j][i] + ",");
+                for(int k=row-1; k>=0; k--){
+                    System.out.print(matrix[k][i] + " ");
                 }
+            }
+            if(i< col-1){
+                System.out.print(", ");
             }
         }
         sc.close();
